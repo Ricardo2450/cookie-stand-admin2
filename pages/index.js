@@ -22,6 +22,7 @@ export default function Home() {
 
     // build an object representing the question and reply
     const newLocation = {
+        hourly_sales: [48, 42, 30, 24, 42, 24, 36, 42, 42, 48, 36, 42, 24, 36],
         location: event.target.location.value,
         minCustomers: event.target.min.value,
         maxCustomers: event.target.max.value,
@@ -67,7 +68,7 @@ export default function Home() {
                 }
             </tbody>
         </table> */}
-        <ReportTable setNewLocations={setNewLocations} />
+        <ReportTable setNewLocations={setNewLocations} newLocations={newLocations} />
 
       </main>
 
