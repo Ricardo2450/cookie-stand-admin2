@@ -1,6 +1,6 @@
-# Lab 37
+# Lab 37, Lab 38
 
-### Lab37: Welcome to React, Next.js & TailwindCSS
+### Lab37: Welcome to React, Next.js & TailwindCSS, Lab38: Cookie Stand Admin Version 2
 
 ### Author: Ricardo Soto-Fabela
 
