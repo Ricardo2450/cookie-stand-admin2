@@ -10,6 +10,9 @@
 
 npm run dev
 
+### Deployed URl:
+- Coming soon
+
 
 ### Resources:
 https://tailwindcss.com/docs/guides/nextjs
