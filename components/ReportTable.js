@@ -22,26 +22,26 @@
 //   return (
 //     props.setNewLocations.length > 0 ? (
 //       <table className="w-1/2 mx-auto my-4">
-//         <thead>
-//           <tr>
-//             <th className="border border-gray-700 p-3">Location</th> {hours.map((hour, idx) => (
-//               <th className="border border-gray-700 p-3" key={idx}> {hour} </th>
-//             ))}
-//             <th className="border border-gray-700 p-3">Totals</th>
-//           </tr>
-//         </thead>
+        // <thead>
+        //   <tr>
+        //     <th className="border border-gray-700 p-3">Location</th> {hours.map((hour, idx) => (
+        //       <th className="border border-gray-700 p-3" key={idx}> {hour} </th>
+        //     ))}
+        //     <th className="border border-gray-700 p-3">Totals</th>
+        //   </tr>
+        // </thead>
 
-//         <tbody>
-//           {props.newLocations.map((item, idx) => (
-//             <tr key={idx}>
-//               <td className="pl-2 border border-gray-700">{item.location}</td>
-//               {hourly_sales.map((hour, idx) => (
-//                 <td className="pl-2 border border-gray-700" key={idx}> {hour} </td>
-//               ))}
-//               <th className="border border-gray-700 p-3">{hourlyTotals}</th>
-//             </tr>
-//           ))}
-//         </tbody>
+        // <tbody>
+        //   {props.newLocations.map((item, idx) => (
+        //     <tr key={idx}>
+        //       <td className="pl-2 border border-gray-700">{item.location}</td>
+        //       {hourly_sales.map((hour, idx) => (
+        //         <td className="pl-2 border border-gray-700" key={idx}> {hour} </td>
+        //       ))}
+        //       <th className="border border-gray-700 p-3">{hourlyTotals}</th>
+        //     </tr>
+        //   ))}
+        // </tbody>
 //         <tfoot>
 //           <th className="border border-gray-700 p-3">Totals</th>
 //           {columnTotals.map((total, idx) => (
@@ -94,6 +94,7 @@ export default function CookieStandTable({ stands, deleteStand }) {
             ))}
           </tr>
         </thead>
+
         <tbody>
           {stands.map((stand, idx) => (
             <CookieStandRow
@@ -104,6 +105,8 @@ export default function CookieStandTable({ stands, deleteStand }) {
             />
           ))}
         </tbody>
+
+
       </table>
     ) : (
       <p className="w-8/12 p-2 mx-auto my-4 text-center text-lg">

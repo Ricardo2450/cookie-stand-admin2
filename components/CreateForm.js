@@ -51,7 +51,7 @@ export default function CookieStandForm() {
             <fieldset className='w-11/12'>
                 <legend className='inline-grid content-center mx-4 my-2'>Add Location</legend>
                 <input className='content-center mx-2 my-2 w-6/12' placeholder='ex: Seatte' name='location' />
-                <button className='inline-grid text-center w-72 mx-2 my-2 px-6 py-4 bg-orange-500 text-gray-50'>Create Stand</button>
+                <button className='inline-grid text-center w-72 mx-2 my-2 px-6 py-4 bg-purple-700 text-gray-50'>Create Stand</button>
                 <legend className='inline-block p-3 '>Minimun Customers Per Hour</legend>
                 <input className='relative left-0.5 mx-2 my-2 w-3/12' placeholder='minimum' name='minimum' defaultValue={0} />
                 <legend className='inline-grid content-center p-3'>Maximum Customers Per Hour</legend>
