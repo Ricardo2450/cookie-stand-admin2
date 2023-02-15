@@ -11,7 +11,7 @@
 npm run dev
 
 ### Deployed URl:
-- Coming soon
+- cookie-stand-admin2-two.vercel.app
 
 
 ### Resources:
